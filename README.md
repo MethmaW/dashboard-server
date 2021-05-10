@@ -1,6 +1,6 @@
 ## Project Summary
 
-"test summary"
+Dashboard application.
 
 ## Installation and Setup Instructions
 
@@ -12,8 +12,8 @@ Clone this repository. You will need `node` and `npm` installed globally on your
 
 2. Start the server:
 
-`npm run your script`
+`npm run dev`
 
 ## Tools and Technologies:
 
-This project is built on `express js` framework with the `mongoose` library .
+This project is built on `Node js` and `express js`.
