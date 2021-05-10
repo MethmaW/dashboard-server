@@ -17,7 +17,7 @@ app.use(cors());
 app.use("/api/dashboard", dashboard);
 
 //listening to the app
-app.listen(process.env.LOCAL, () =>
+app.listen(process.env.PORT || process.env.LOCAL, () =>
 	console.log(
 		colors.yellow.bold(`🚀 Server is running on`),
 		colors.yellow.underline(`http://localhost:${process.env.LOCAL}`)
